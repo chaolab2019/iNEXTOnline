@@ -5,10 +5,10 @@ library(shiny)
 
 shinyUI(navbarPage(
   id="index",
-  title="iNEXT Online (Sept. 2016)",
+  title="iNEXT Online (Sept. 2016)",selected = "iNEXT",
   
   tabPanel("Sample Completeness Curve",h2("Sample Completeness Curve"),value="sc"),
-  tabPanel("Interpolation/Extrapolation",h2("Interpolation/Extrapolation"),value="iNEXT"),
+  tabPanel("Interpolation/Extrapolation",h2("Interpolation/Extrapolation (iNEXT)"),value="iNEXT"),
   tabPanel("Asymptotic Analysis",h2("Asymptotic Analysis"),value="Profile"),
   fluidPage(
     tags$head(tags$link(rel = "icon", type = "image/x-icon", href = 
